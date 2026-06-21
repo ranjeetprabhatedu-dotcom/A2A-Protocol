@@ -27,4 +27,4 @@ export default defineConfig({
   optimizeDeps: {
     include: ['buffer', 'process'],
   },
-})
+});
