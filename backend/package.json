@@ -4,8 +4,8 @@
   "description": "FastAPI Backend for A2A Protocol",
   "main": "main.py",
   "scripts": {
-    "start": "cd .. && py -3.11 -m backend.main",
-    "dev": "cd .. && py -3.11 -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload",
+    "start": "node init && cd .. && py -3.11 -m backend.main",
+    "dev": "node init && cd .. && py -3.11 -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload",
     "install-python": "py -3.11 -m pip install -r ../requirements.txt"
   },
   "keywords": [
